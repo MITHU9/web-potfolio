@@ -11,7 +11,7 @@ h2{
 p{
     color: dimgray;
 }
-.name_highlight{
+.orange-highlight{
    color: orange;
 }
 .profile{
@@ -43,4 +43,28 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experience{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 7px;
+    height: 70%;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,orange,red);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
